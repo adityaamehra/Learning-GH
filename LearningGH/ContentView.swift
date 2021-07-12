@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            Image(systemName: "person.3.fill")
+            Image(systemName: "person.3.fill").resizable().frame(width: 100, height: 200)
         Text("WhatsUp, CodeCrew")
             .padding()
         }
